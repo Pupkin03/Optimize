@@ -1,0 +1,86 @@
+.support h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 0 10px 80px;
+}
+.support .space{
+    margin-left: 90px;
+    gap: 10px;
+}
+.photo1{
+    width: 283px;
+}
+.photo2{
+    width: 471px;
+    height: 107px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+.photo3{
+    width: 106px;
+    height: 107px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+}
+.photo4{
+    width: 280px;
+
+}
+
+
+@media (min-width: 440px) and (max-width: 1027px)  {
+    .support .space{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .photo1{
+        width: 180px;
+        height: 160px;
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+    .photo2{    
+        width: 240px;
+        height: 107px;
+        margin-bottom: 80px;
+        margin-left: 10px;
+    }
+    .photo4{
+        width: 200px;
+        height: 120px;
+        margin-bottom: 90px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 440px) {
+    .support h2{
+        font-size: 14px;
+        margin-left: 30px;
+    }
+   .support .space{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .photo1{
+        width: 100px;
+        height: 80px;
+        margin-left: -60px;
+    }
+    .photo2{
+        width: 150px;
+        height: 80px;
+        margin-bottom: 30px;
+        margin-left: -30px;
+    }
+    .photo3{
+        width: 50px;
+        height: 50px;
+        margin-left: -50px;
+    }
+    .photo4{
+        width: 140px;
+        height: 120px;
+        margin-left: -50px;
+        margin-bottom: 50px;
+    }
+    }

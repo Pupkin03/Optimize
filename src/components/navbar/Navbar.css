@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #000E1C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 0 10px;
+    border-color: #000E1C;
+    
+}
+
+
+
+.navbar .navtext{
+    font-size: 30px;
+}
+
+.navbarList{
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+@media (max-width: 768px) {
+    .navbar{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 5px 0 10px;
+        border-color: #000E1C;
+    }
+    
+    .navbar .navtext{
+        font-size: 15px;
+    }
+    
+    .navbarList{
+        gap: 10px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -34px;
+        padding-right: 10px;
+        font-size: 8px;
+    } 
+  }
+
+
+
+
+
+
+

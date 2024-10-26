@@ -1,0 +1,88 @@
+.create{
+    display: flex;
+    margin-bottom: -240px;
+}
+.create img{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 0;
+    padding-bottom: -50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    filter: brightness(0.6);
+}
+.hero{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 550px;
+    color: white;
+    left: 200px;
+    font-size: 25px;
+}
+h3{
+    margin-left: 50px;
+}
+.hook{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 90px;
+}
+.hook p{
+    font-size: 30px;
+}
+form input{
+    border-radius: 5px;
+    border: 1px solid;
+    padding-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.hook button{
+    margin-top: 20px;
+    width: 110px;
+    font-size: 10px;
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: #2CA02C;
+    border: 3px solid #2CA02C;
+    color: white;
+    margin-left: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .create img{
+        width: 30rem;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .hero{
+        left: 110px;
+    }
+}
+
+@media (max-width: 432px)  {
+    .create img{
+        width: 13rem;
+        height: 44rem;
+        margin-top: -5px;
+        margin-bottom: 230px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .hook{
+        margin-left: 10px;
+    }
+    .hook p{
+        font-size: 20px;
+    }
+    form input{
+        border-radius: 2px;
+        border: 1px solid;
+        padding-left: 1px;
+        padding-right: 5px;
+    }
+    .hero{
+        display: none;
+    }
+}

@@ -1,0 +1,62 @@
+.question h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 0 30px 80px;
+}
+.dobble{
+    display: grid;
+    margin: 0 80px;
+    grid-template-columns: 1fr 1fr;
+}
+.question img{
+    width: 762px;
+    height: 650px;
+    border-radius: 0px;
+    padding-right: 50px;
+}
+.question p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.question button{
+    display: flex;
+    background-color: #2CA02C;
+    color: white;
+    border-color: 50px solid #2CA02C;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    left: 70rem;
+}
+
+@media (min-width: 440px) and (max-width: 1027px)  {
+    .question img{
+        width: 562px;
+        height: 710px;
+    }
+    .question button{
+        left: 47rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .question img{
+        width: 150px;
+        height: 400px;
+    }
+    .question p{
+        font-size: 8px;
+    }
+    .question button{
+        left: 13rem;
+    }
+    .question h2{
+        margin: 10px 0 30px 20px;
+        font-size: 14px;
+    }
+}
+
